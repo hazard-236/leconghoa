@@ -1,0 +1,10 @@
+1
+Câu hỏi:Có thể tạo hai hàm khởi tạo: DigitalVideoDisc(String title) và DigitalVideoDisc(String category) không?
+Trả lời:Không thể. Trong Java, máy tính phân biệt các hàm khởi tạo dựa trên Kiểu dữ liệu của tham số truyền vào (được gọi là Signature).
+Vì cả "Tiêu đề" (title) và "Thể loại" (category) đều có chung kiểu dữ liệu là Chuỗi ký tự (String), nên Java sẽ bị lẫn lộn và báo lỗi vì 
+không biết bạn đang muốn gọi hàm nào.
+2
+Câu hỏi:Tại sao chỉ dùng hàm Lấy dữ liệu (Getter) mà không dùng hàm Sửa dữ liệu (Setter)?
+Trả lời:Việc này nhằm đảm bảo Tính toàn vẹn của dữ liệu. Trong hệ thống quản lý kho đĩa DVD (AIMS), một khi thông tin đĩa đã được nhập vào 
+hệ thống thì không nên để người dùng tự ý thay đổi (như tên đĩa hay giá tiền) một cách tùy tiện. Điều này giúp tránh sai sót và bảo mật 
+thông tin sản phẩm.
